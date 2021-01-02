@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Contact me</h3>
+    <label>What color do you ptefer:</label>
+    <input id="colorInput" type="color" name="">
+    <br>
+    <ul>
+        <li>my email: myemail@email.com</li>
+        <li>my fone: 1-403-555-5555</li>
+        <li>my page:<a href="http://www.testsite41.dx.am">www.testsite41.dx.am</a></li>
+    </ul>
+    <hr>
+    <form action="mailto:info@testsite41.dx.am" method="POST">
+        <label>Your name:</label>
+        <input type="text" name="youreName" value="">
+        <br>
+        <label>Your Email</label>
+        <input type="email" name="youreEmail">
+        <br>
+        <label>Your Message:</label>
+        <br>
+        <textarea name="youreMessage" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit">
+    </form>
+    <script>
+        document.getElementById("colorInput").onchange = () => {
+            document.querySelector('h3').style.backgroundColor = document.getElementById("colorInput").value;
+        }
+    </script>
+</body>
+
+</html>
