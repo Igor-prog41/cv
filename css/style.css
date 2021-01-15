@@ -1,49 +1,10 @@
 body{
+    margin-top: 10%;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(240, 240, 251);
     margin: 0px;
-    text-align: center;
-    /* background-image: url('../img/mountain.png');
-   
-    background-repeat:no-repeat;
-    background-size:cover; */
-
-}
-.topContainer{
-    background-color: #d6efc7;
-    /* height: 200px;
-    width: 200px;
-    border: 10px solid;
-    padding: 20px; */
-}
-.midlleContainer{
-    background-color: crimson;
-    height: 200px;
-    width: 200px;
-    border: 20px solid;
-    margin-left: 260px;
-}
-.bottomContainer{
-    background-color: rgb(20, 220, 153);
-    height: 200px;
-    width: 200px;
-    border: 10px solid;
-    margin-left: 500px;
-}
-h1{
-    margin: 0 auto 0 auto;
-    width:10%;
-    
-}
-.pro{
-    text-decoration: underline;
-    background:aqua;
-    min-width: 100px;
 }
 
-.center{
-    text-align: center;
-}
 
 .cloudTop{
 margin-top: 50px;
@@ -64,17 +25,6 @@ margin-top: 50px;
         animation-iteration-count: infinite ;
     }
   
-.cloudEnd{
-        position: absolute;
-        top:200px;
-        left:100px;
-    }
-
-/* .cloudBottom{
-    margin-left: 1000px;
-    transition: ease all 15s;
-} */
-
 @keyframes cloudOne{
     0%{
         margin-left:50px;
@@ -98,7 +48,7 @@ margin-top: 50px;
     display: inline-block;
     padding-top: 15px;
     font-size: 20px;
-    /* background-color: lawngreen; */
+
     width:130px;
     height:33px;
     background-image: url('../img/cloud.png');
@@ -109,7 +59,3 @@ margin-top: 50px;
     position: fixed;
 }
 
-/* div {
-    background-image:
-        url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
-  } */
