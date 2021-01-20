@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    background-color: rgba(75, 75, 156, 0.096);
+    background-size:cover;
+}
+ 
+.wrapperForPage{
+    text-align: center;
+}
+
+#titleList{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#slider{
+    width: 384px;
+    height: 128px;
+    border: 5px solid black;
+    margin: 50px auto;
+    overflow: hidden;
+   }
+ 
+ #polosa{
+     width: 1280px;
+     position: relative;
+     left: 0;
+     
+   }
+
+ .muving{
+    transition: all ease 1s;   
+ }
+
+ .muvingSlow{
+    transition: all ease 1s;
+ }
+ 
+ #polosa img {
+      float: left;
+   }
+
+  #polosa::after{
+       content:"";
+       display: block;
+       clear: both;
+}
+
+

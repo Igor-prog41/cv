@@ -1,0 +1,20 @@
+ 
+#menu{
+    padding-left: 50px;
+    padding-top: 20px;
+    width: 250px;
+    height: 100vh;
+    background-color: gainsboro ;
+    position: fixed;
+    left: -230px;
+    top: 0;
+    transition: all ease 1s;
+  }
+
+  
+.menuBut{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+  }

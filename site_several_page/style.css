@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body{
+  background-color: rgba(75, 75, 156, 0.096);
+  background-image: url(./picture/photo-of-man-holding-a-book-927022.jpg) ;
+  background-size:cover;
+}
+
+#titleList{
+    margin-top: 50px;
+    text-align: center;
+}
