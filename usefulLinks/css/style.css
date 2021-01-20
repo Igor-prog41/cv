@@ -1,0 +1,28 @@
+body{
+    background-color: #c6ebc9;
+}
+.center{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+table{
+    border-collapse: collapse;
+}
+ td{
+     
+     border: solid 2px #70af85;
+ }
+  .websiteIcon{
+      width:128px;
+  }
+  .mainLogo{
+      width:64px;
+  }
+  .titleName{
+      display: inline-block;
+      margin: 0;
+      padding-left: 50px;
+      padding-bottom: 10px;
+      color:#433520;
+  }
