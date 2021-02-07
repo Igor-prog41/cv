@@ -1,63 +1,111 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Header style------------------------------------------------------------- */
+.header-container{
     background-color: rgb(240, 240, 251);
+     position: fixed;
+     /* display:block; */
+    width: 100% ;  
+    /* border: solid #FF8326; */
 }
 
-.content{
-padding-top:10%;
+.img-logo-top{
+    height:7vh;
+    margin:5px 15px 5px 5px;
+    /* display:inline-block; */
 }
 
-
-.cloudTop{
-margin-top: 50px;
-    /* margin-left: -150px; */
-    /* transition: ease all 15s; */
-    animation-name: cloudOne;
-    animation-duration: 11s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.cloudBottom{
-        animation-name: cloudTwo;
-        animation-duration: 8s;
-        animation-timing-function: linear;
-        animation-direction: alternate;
-        animation-iteration-count: infinite ;
-    }
-  
-@keyframes cloudOne{
-    0%{
-        margin-left:50px;
-    }
-    100%{
-        margin-left:1000px;
-    }
-}
-
-
-@keyframes cloudTwo{
-    100%{
-        margin-left:50px;
-    }
-    0%{
-        margin-left:1000px;
-    }
+.name-in-top{
+    color: #00A2E8;
+    display: inline-block;
+    font-size: 2.5rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .navEllement{
     display: inline-block;
-    padding-top: 15px;
+    padding-top: 5px;
     font-size: 20px;
-
+    /* background-color: lawngreen; */
     width:130px;
     height:33px;
-    background-image: url('../img/cloud.png');
-    text-align: center; 
+    text-align: center;
+    /* border:1px solid rgb(101, 101, 250); */
+    margin: 0 auto 0 auto;
 }
 
 .nav{
-    position: fixed;
+    display: inline;
 }
 
+/* Middle container style------------------------------------------------------------- */
+
+.middle-container{
+    text-align: center;
+    color: darkblue;
+    background-color: rgb(133, 245, 118);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+h2.middle-container{
+margin-block-start: 0;
+margin-block-end: 0;
+font-size: 2.5rem;
+}
+
+.experience-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.experience-img-study{
+    width:25%;
+    float:left;
+    margin-right: 30px;
+}
+
+.experience-img-mine{
+    width:25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.experience-img-mine-college{
+    width:25%;
+    float:left;
+    margin-right: 30px;
+}
+
+.experience-img-mechanic{
+    width:25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.experience-img-mechanic-college{
+    width:25%;
+    float:left;
+    margin-right: 30px;
+}
+/* Fotter style------------------------------------------------------------- */
+.footer-container{
+    
+    background-color: #cfdac8;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+}
+
+.made{
+    margin-block-end: 0;
+}
