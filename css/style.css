@@ -102,6 +102,32 @@ font-size: 2.5rem;
     float:left;
     margin-right: 30px;
 }
+.btn {
+  background: #34d99c;
+  background-image: -webkit-linear-gradient(top, #34d99c, #1d8a37);
+  background-image: -moz-linear-gradient(top, #34d99c, #1d8a37);
+  background-image: -ms-linear-gradient(top, #34d99c, #1d8a37);
+  background-image: -o-linear-gradient(top, #34d99c, #1d8a37);
+  background-image: linear-gradient(to bottom, #34d99c, #1d8a37);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #58cf40;
+  background-image: -webkit-linear-gradient(top, #58cf40, #3ffc3f);
+  background-image: -moz-linear-gradient(top, #58cf40, #3ffc3f);
+  background-image: -ms-linear-gradient(top, #58cf40, #3ffc3f);
+  background-image: -o-linear-gradient(top, #58cf40, #3ffc3f);
+  background-image: linear-gradient(to bottom, #58cf40, #3ffc3f);
+  text-decoration: none;
+}
 /* Fotter style------------------------------------------------------------- */
 .footer-container{
     
