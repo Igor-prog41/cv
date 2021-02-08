@@ -7,6 +7,11 @@ h2{
     font-family: 'Josefin Sans', sans-serif;
 }
 
+hr{
+    border:dotted #70af85 6px;
+    border-bottom: none;
+    width:30%;  
+}
 /* Header style------------------------------------------------------------- */
 .header-container{
     background-color: rgb(240, 240, 251);
