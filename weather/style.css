@@ -1,0 +1,22 @@
+html, body {
+    font-family: serif;
+  
+}
+body {
+    
+    background-image:url(./img/mountainsWeather.JPG);
+    background-size:cover;
+    margin: 50px;
+}
+.outWeather{
+    width: 100px;
+    background-color: rgb(121,215,255);
+    float: left;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.outWeather1{
+    display: inline-block;
+    
+}
